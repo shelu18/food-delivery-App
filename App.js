@@ -24,8 +24,21 @@ const Header = () => {
   );
 };
 
+
+//body
 const Cart = () => {
-  return <div className="cart"></div>;
+  return <div className="cart">
+    
+    <img ClassName="food-img"
+    src ="https://media.istockphoto.com/id/179085494/photo/indian-biryani.jpg?s=612x612&w=0&k=20&c=VJAUfiuavFYB7PXwisvUhLqWFJ20-9m087-czUJp9Fs=" alt="food"/>
+    <h3>Guru Kripa</h3>
+    <p>Indian Biryani</p>
+    <p>Price: 310 rs </p>
+    <button>Add to Cart</button>
+
+
+  </div>;
+ 
 };
 
 const Body = () => {
@@ -34,6 +47,18 @@ const Body = () => {
       <div ClassName="search"> Search</div>
       <div className="res-container">
         <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        <Cart />
+        
       </div>
     </div>
   );
